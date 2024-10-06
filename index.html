@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dotgrid</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/simple-grid.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <svg width="50" height="50" viewBox="0 0 37.857638 37.857121" version="1.1" id="svg1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                <g id="layer1" transform="translate(-1219.9969,-881.02997)">
+                    <path id="path99" style="fill:currentColor;"
+                        d="m 1222.2489,881.02994 a 2.2517731,2.2517731 0 0 0 -2.252,2.25155 2.2517731,2.2517731 0 0 0 2.252,2.25205 2.2517731,2.2517731 0 0 0 2.2516,-2.25205 2.2517731,2.2517731 0 0 0 -2.2516,-2.25155 z m 16.6765,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25155 2.2517731,2.2517731 0 0 0 2.2515,2.25205 2.2517731,2.2517731 0 0 0 2.2521,-2.25205 2.2517731,2.2517731 0 0 0 -2.2521,-2.25155 z m 16.677,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25155 2.2517731,2.2517731 0 0 0 2.2515,2.25205 2.2517731,2.2517731 0 0 0 2.2521,-2.25205 2.2517731,2.2517731 0 0 0 -2.2521,-2.25155 z m -33.3535,16.67702 a 2.2517731,2.2517731 0 0 0 -2.252,2.25154 2.2517731,2.2517731 0 0 0 2.252,2.25206 2.2517731,2.2517731 0 0 0 2.2516,-2.25206 2.2517731,2.2517731 0 0 0 -2.2516,-2.25154 z m 16.6765,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25154 2.2517731,2.2517731 0 0 0 2.2515,2.25206 2.2517731,2.2517731 0 0 0 2.2521,-2.25206 2.2517731,2.2517731 0 0 0 -2.2521,-2.25154 z m 16.677,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25154 2.2517731,2.2517731 0 0 0 2.2515,2.25206 2.2517731,2.2517731 0 0 0 2.2521,-2.25206 2.2517731,2.2517731 0 0 0 -2.2521,-2.25154 z m -33.3535,16.6765 a 2.2517731,2.2517731 0 0 0 -2.252,2.25206 2.2517731,2.2517731 0 0 0 2.252,2.25154 2.2517731,2.2517731 0 0 0 2.2516,-2.25154 2.2517731,2.2517731 0 0 0 -2.2516,-2.25206 z m 16.6765,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25206 2.2517731,2.2517731 0 0 0 2.2515,2.25154 2.2517731,2.2517731 0 0 0 2.2521,-2.25154 2.2517731,2.2517731 0 0 0 -2.2521,-2.25206 z m 16.677,0 a 2.2517731,2.2517731 0 0 0 -2.2515,2.25206 2.2517731,2.2517731 0 0 0 2.2515,2.25154 2.2517731,2.2517731 0 0 0 2.2521,-2.25154 2.2517731,2.2517731 0 0 0 -2.2521,-2.25206 z" />
+                </g>
+            </svg>
+
+            <h1 class="title mt mb">Dotgrid</h1>
+            <p class="desc mb">
+                Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.
+                <br>
+                It supports layers, the full SVG specs and additional effects such as mirroring and radial drawing.
+                <br>
+                Dotgrid exports to both PNG and SVG files.
+            </p>
+
+            <div class="mt">
+                <a class="btn mr" href="./app/dotgrid.html" target="_blank">Quadrangular Mode</a>
+                <a class="btn" href="./app/triangular.html" target="_blank">Triangular Mode</a>
+            </div>
+
+            <div class="themes mt">
+                <details class="">
+                    <summary>Themes</summary>
+                    <div class="mt row w-100" id="theme-list">
+
+
+
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#222222'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#affec7'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#888888'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#555555'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#333333'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#111111'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#affec7'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#9EB7FF'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#3e8281'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#FFFFFF'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#c5f0ec'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#FFFFFF'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#1C0A16'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#499897'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#6ADEDC'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#6ADEDC'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#EDEAEA'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#393B3F'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#808790'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#A3A3A4'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#333333'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#777777'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#DDDDDD'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#ffffff'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#18364A'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#ffc600'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#0088ff'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#1B1A1C'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#204863'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#15232D'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#ffffff'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#d09090'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#000000'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#fffafa'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#6ea2a1'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#ff1493'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#272727'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#6ADEDC'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#b08686'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#7fffd4'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#1b1a1e'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#ff2851'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#3e3d42'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#bdbcc1'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#63606b'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#151417'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#ff2851'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#E0B1CB'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#231942'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#48416d'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#917296'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#E0B1CB'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#5E548E'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#FFFFFF'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#BE95C4'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#9F86C0'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#FBFBF2'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#3a3738'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#847577'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#bdb8b8'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#A6A2A2'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#676164'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#A6A2A2'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#CFD2CD'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#676164'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#111111'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#e8dacb'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#5a6970'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#bbbbbb'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#8498a2'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#333333'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#b9615a'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <!-- Author: maxdeviant -->
+                            <!-- Credit goes to Sarah Drasner for designing the original theme: https://github.com/sdras/night-owl-vscode-theme -->
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#011627'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#7fdbca'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#82aaff'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#c792ea'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#637777'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#5f7e97'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#456075'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#2f4759'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#7fdbca'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#222222'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#cccccc'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#999999'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#ffffff'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#888888'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#666666'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#444444'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#000000'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <!-- Author: dom -->
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#000000'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#efefef'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#cdcdcd'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#676767'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#0a0a0a'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#eeeeee'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#ffd220'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#464646'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#ff3300'></circle>
+                            </svg>
+
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="64px" width="96px">
+                                <rect fill="#2E3440" id="background" height="64" width="96"></rect>
+
+                                <circle fill="#ECEFF4" id="f_high" r="8" cy="24" cx="24"></circle>
+                                <circle fill="#9DC4C3" id="f_med" r="8" cy="24" cx="40"></circle>
+                                <circle fill="#B4B8C0" id="f_low" r="8" cy="24" cx="56"></circle>
+                                <circle fill="#5E81AC" id="f_inv" r="8" cy="24" cx="72"></circle>
+
+                                <circle fill="#5E81AC" id="b_high" r="8" cy="40" cx="24"></circle>
+                                <circle fill="#434C5E" id="b_med" r="8" cy="40" cx="40"></circle>
+                                <circle fill="#3B4252" id="b_low" r="8" cy="40" cx="56"></circle>
+                                <circle fill="#ABCDCC" id="b_inv" r="8" cy="40" cx="72"></circle>
+                            </svg>
+
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#010101'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#c692bb'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#149106'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#8a6682'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#8D2E71'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#8D2E71'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#6E2455'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#010101'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#159106'></circle>
+                            </svg>
+
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#352b31'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#f5f5d4'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#70838c'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#4a6b83'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#352b31'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#96cf85'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#5a6970'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#4a3b44'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#f5f5d4'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#000709'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#cbcbd3'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#897668'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#523d2c'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#3f4f5b'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#aba49e'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#59574b'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#372823'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#8c5a3d'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96" height="64" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <title>background</title>
+                                    <rect fill="none" id="canvas_background" height="66" width="98" y="-1" x="-1" />
+                                </g>
+                                <g>
+                                    <title>Layer 1</title>
+                                    <!-- Background -->
+                                    <rect fill="#073642" id="background" height="64" width="96" /> <!-- Base 02 -->
+                                    <circle fill="#fdf6e3" id="b_high" r="8" cy="24" cx="24" /> <!-- Base 3 -->
+                                    <circle fill="#eee8d5" id="b_med" r="8" cy="24" cx="40" /> <!-- Base 2 -->
+                                    <circle fill="#002b36" id="b_low" r="8" cy="24" cx="56" /> <!-- Base 03 -->
+                                    <circle fill="#cb4b16" id="b_inv" r="8" cy="24" cx="72" /> <!-- Orange (Compilment) -->
+                                    <!-- Foreground -->
+                                    <circle fill="#93a1a1" id="f_high" r="8" cy="40" cx="24" /> <!-- Base 1-->
+                                    <circle fill="#6c71c4" id="f_med" r="8" cy="40" cx="40" /> <!-- Violet (Analagous) -->
+                                    <circle fill="#586e75" id="f_low" r="8" cy="40" cx="56" /> <!-- Base 01 -->
+                                    <circle fill="#002b36" id="f_inv" r="8" cy="40" cx="72" /> <!-- Base 03 -->
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#111111'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#aaaaaa'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#555555'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#fc533e'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#666666'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#333333'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#fc533e'></circle>
+                            </svg>
+                        </div>
+
+                        <div class="col-2 col-4-sm">
+
+                            <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+                                <rect width='96' height='64' id='background' fill='#22282a'></rect>
+                                <!-- Foreground -->
+                                <circle cx='24' cy='24' r='8' id='f_high' fill='#f1f2f3'></circle>
+                                <circle cx='40' cy='24' r='8' id='f_med' fill='#a6e22e'></circle>
+                                <circle cx='56' cy='24' r='8' id='f_low' fill='#66d9ef'></circle>
+                                <circle cx='72' cy='24' r='8' id='f_inv' fill='#f92672'></circle>
+                                <!-- Background -->
+                                <circle cx='24' cy='40' r='8' id='b_high' fill='#678cb1'></circle>
+                                <circle cx='40' cy='40' r='8' id='b_med' fill='#4f6164'></circle>
+                                <circle cx='56' cy='40' r='8' id='b_low' fill='#42464C'></circle>
+                                <circle cx='72' cy='40' r='8' id='b_inv' fill='#e6db74'></circle>
+                            </svg>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <a href="https://github.com/YasinC2/dotgrid" target="_blank" class="btn btn-float" title="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+        </a>
+
+        <div class="cursor"></div>
+        <div class="cursor2"></div>
+
+        <script src="js/jquery-3.7.1.slim.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
